@@ -3,7 +3,7 @@ require_once './vendor/autoload.php';
 
 use ExemploPDOMySQL\MySQLConnection;
 
-if($_SERVER['REQUEST_METHOD'] -- 'POST') {
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $bd = new MySQLConnection ();
 
     $comando = $bd->prepare('INSERT INTO generos(nome) VALUES(:nome)');
