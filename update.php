@@ -9,7 +9,7 @@ $genero = null;
 
 if($_SERVER['REQUEST_METHOD'] == 'GET') {
     $comando = $bd->prepare('SELECT * FROM generos WHERE id = :id');
-    $comando->execute([':nome' -> $_POST['nome']]);
+    $comando->execute([':id' => $_GET['id']]);
 
     $genero = $comando->fetch(PDO::FETCH_ASSOC);
 } else {
