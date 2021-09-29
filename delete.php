@@ -14,9 +14,9 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
     $genero = $comando->fetch(PDO::FETCH_ASSOC);
 } else {
     $comando = $bd->prepare('DELETE FROM generos WHERE id = :id');
-    $comando->execute(':id' => $_POST['id']]);
+    $comando->execute([':id' => $_POST['id']]);
 
-    header('Location:/index.php')
+    header('Location:/index.php');
 }
 
 ?>
