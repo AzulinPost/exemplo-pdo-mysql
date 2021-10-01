@@ -23,7 +23,7 @@ $generos = $comando->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <main class="container">
         <a class="btn btn-primary" href="insert.php">Novo Gênero</a>
-        <table>
+        <table class="table">
             <tr>
                 <th>Id</th>
                 <th>Nome</th>
