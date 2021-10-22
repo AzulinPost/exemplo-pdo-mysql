@@ -32,6 +32,4 @@ $_title = 'Gêneros';
                 </tr>
             <?php endforeach ?>            
         </table> 
-    </main>  
-</body>
-</html>
+<?php include('./includes/footer.php'); ?>

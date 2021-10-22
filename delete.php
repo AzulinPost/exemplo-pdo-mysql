@@ -31,7 +31,4 @@ $_title = ' Remover Gênero';
             <a class="btn btn-secondary" href="/index.php">Voltar</a>
             <button class="btn btn-danger" type="submit">Excluir</button>
         </form>
-    </main>
-    
-</body>
-</html>
+<?php include('./includes/footer.php'); ?>
