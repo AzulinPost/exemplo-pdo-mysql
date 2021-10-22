@@ -10,7 +10,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.php">Biblioteca</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" aria-expanded="false"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
