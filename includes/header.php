@@ -11,6 +11,15 @@
             <a class="navbar-brand" href="/index.php">Biblioteca</a>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/index.php" class="nav-link">Gêneros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./list_livros.php" class="nav-link">Livros</a>
+                </li>
+
+            </ul>
 
         </div>
 
